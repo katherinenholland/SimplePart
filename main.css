@@ -1,0 +1,371 @@
+body {
+	font-family: sans-serif;
+	background-color: #323232;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.headerWrapper {
+	width: 100%;
+	background-color: #fff;
+	padding-left: 15px;
+}
+
+.headerWrapper p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.subaruWrap {
+	padding-top: 0;
+	width: 490px;
+	height: 100px;
+}
+
+.subaruWrap h1 {
+	float: right;
+	color: #42474A;
+	margin-left: 5px;
+	margin-top: 50px;
+	margin-bottom: 0;
+	font-size: 45px;
+}
+
+.subaruWrap img {
+	float: left;
+	height: 140px;
+	width: 200px;
+}
+
+.upperHeader nav {
+	margin-left: 180px;
+}
+
+.upperHeader a {
+	text-decoration: none;
+	color: #9A9899;
+	border-top: solid thin #9A9899;
+	padding-top: 2px;
+	font-style: italic;
+}
+
+.padding {
+	padding-right: 10px;
+}
+
+.upperHeader a:active, .upperHeader a:hover {
+	color: #323033;
+	border-top: solid thin #323033;
+}
+
+.upperHeader li {
+	display: inline;
+}
+
+.upperHeader ul {
+	list-style-type: none;
+	margin-left: 30px;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.lowerHeader {
+	width: 100%;
+	margin-top: 0;
+	padding-top: 5px;
+	height: 60px;
+	background-color: #EBEBEB;
+}
+
+.grad {
+    background: -webkit-linear-gradient(#fff, #EBEBEB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #EBEBEB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #EBEBEB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #EBEBEB); /* Standard syntax */
+}
+
+.lowerHeaderNav {
+	float: left;
+}
+
+.lowerHeaderNav a {
+	text-decoration: none;
+	color: #4062A1;
+	padding: 5px 10px 5px 10px;
+	border-right: 1px solid #fff;
+}
+
+.lowerHeader ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 14px;
+	padding-top: 18px;
+}
+
+.lowerHeader li {
+	display: inline;
+	font-weight: bold;
+	padding: 0;
+}
+
+.homeIcon {
+	border-left: 1px solid #fff;
+	height: 25px;
+	width: 25px;
+}
+
+iframe {
+	height: 20px;
+	width: 100px;
+	border: none;
+	margin-top: 30px;
+	margin-left: 300px;
+}
+
+.search {
+	background-color: #333333;
+	color: #fff;
+	height: 50px;
+	width: 300px;
+	float: right;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-right: 13px;
+}
+
+.searchInput input {
+	width: 172px;
+	height: 22px;
+	float: left;
+	border-right: 0;
+}
+
+.searchInput {
+	width: 200px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.searchImg {
+	float: right;
+	padding: 0;
+	height: 28px;
+	width: 26px;
+}
+
+.search p {
+	float: left;
+	margin-left: 14px;
+}
+
+.container {
+	width: 98%;
+	height: 100%;
+	margin: auto;
+	background-color: #fff;
+}
+
+.wrapper1 {
+	width: 100%;
+	background-color: #B2B2B2;
+}
+
+.banner img {
+	width: 100%;
+	height: 120%;
+}
+
+.selectDealer {
+	background-color: #B2B2B2;
+	height: 20px;
+}
+
+.selectDealer h4 {
+	margin-left: 2%;
+	margin-top: 0;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.wrapper2 {
+	width: 95%;
+	margin: auto;
+	font-weight: bold;
+	background-color: #EDEDED;
+}
+
+.zip {
+	height: 60px;
+}
+
+.zip p {
+	float: left;
+	font-weight: bolder;
+	font-size: 20px;
+	margin-top: 12px;
+
+}
+
+.outerZipWrap {
+	width: 450px;
+	margin: auto;
+}
+
+.innerZipWrap {
+	width: 237px;
+	margin-top: 10px;
+	float: right;
+}
+
+.innerZipWrap input {
+	height: 28px;
+	width: 200px;
+	border-right: 0;
+	margin-right: 0;
+	padding: 0;
+	float: left;
+	border: 1px black solid;
+	border-right: none;
+}
+
+.innerZipWrap button {
+	height: 30px;
+	width: 35px;
+	color: #fff;
+	background-color: #3F63A1;
+	margin-left: 0;
+	border-left: 0;
+	float: right;
+	border-top: 0;
+	border: 1px black solid;
+}
+
+.wrapper3 {
+	margin: auto;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+.selectDealer2 {
+	background-color: #214B85;
+	color: #fff;
+}
+
+.selectDealer2 h2 {
+	margin-left: 2%;
+	margin-top: 0;
+	font-size: 20px;
+	font-weight: bolder;
+	padding: 1%;
+}
+
+.allDealers p {
+	margin-top: 70px;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.dealer {
+	color: #5A564D
+}
+
+hr {
+	width: 100%;
+}
+
+#map1, #map2, #map3, #map4, #map5, #map6 {
+	width: 250px;
+	height: 200px;
+	background-color: #CCC;
+	float: left;
+}
+
+.dealer h2 {
+	margin-left: 20%;
+}
+
+.dealer h3 {
+	font-size: 26px;
+}
+
+.dealer h3, .dealer h4, .dealer p {
+	margin-left: 22%;
+}
+
+.dealer h5 {
+	float: right;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.dealer p {
+	margin-bottom: 0;
+}
+
+.dealer button {
+	float: right;
+	background-color: #3E62A0;
+	color: #fff;
+	height: 40px;
+	width: 220px;
+	font-size: 22px;
+	border-radius: 5px;
+	margin-top: 0;
+}
+
+.upperFooter {
+	background-color: #E5E4DF;
+	border-top: solid black 1px;
+	color: #323232;
+	padding: 10px;
+}
+
+.upperFooter p {
+	margin-bottom: 0;
+	font-size: 12px;
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.upperFooter img {
+	display: inline;
+	float: left;
+}
+
+.spacing {
+	padding-top: 0;
+}
+
+.lowerFooter {
+	background-color: #323232;
+	color: #fff;
+	height: 100px;
+	margin-top: 0;
+	padding-left: 10px;
+	padding-right: 15px;
+}
+
+.lowerFooterTop img {
+	float: left;
+	margin-top: 5px;
+}
+
+.lowerFooterTop p {
+	float: right;
+}
+
+.lowerFooterBottom {
+	font-weight: bold;
+	font-size: 12px;
+	clear: both;
+	padding-left: 5px;
+}
