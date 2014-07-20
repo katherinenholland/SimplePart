@@ -1,8 +1,8 @@
 $(document).ready(function () {
 	
-
 	$.each(data.dealers, function(index) {
 		var dealership = data.dealers[index];
+
 		$(".dealer").append("<hr>");
 		$(".dealer").append('<div id="' + dealership.Map + '"></div>')
 		$(".dealer").append("<h2>" + dealership.Title + "<h2>");
@@ -13,7 +13,6 @@ $(document).ready(function () {
 		$(".dealer").append("<div>" + "<p>" + dealership.Review + "</p>" + "<h5>" + "View " + dealership.ReviewCount + " Reviews" + "</h5>" + "</div>");
 	});
 
-	
 	function initialize() {
 
 		$.each(data.dealers, function(index) {
@@ -38,15 +37,3 @@ $(document).ready(function () {
 	google.maps.event.addDomListener(window, 'load', initialize);
 	
 });
-	
-
-
-
-
-
-
-
-	
-
-	
-
