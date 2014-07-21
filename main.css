@@ -137,14 +137,14 @@ iframe {
 }
 
 .searchInput input {
-	width: 172px;
+	width: 170px;
 	height: 22px;
 	float: left;
 	border-right: 0;
 }
 
 .searchInput {
-	width: 200px;
+	width: 201px;
 	display: inline-block;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -152,9 +152,9 @@ iframe {
 
 .searchImg {
 	float: right;
-	height: 28px;
-	width: 26px;
-	margin-top: 0px;
+	height: 27px;
+	width: 27px;
+	margin-top: 1px;
 }
 
 .search a {
@@ -164,7 +164,7 @@ iframe {
 
 .search p {
 	float: left;
-	margin-left: 14px;
+	margin-left: 10px;
 	margin-top: 16px;
 }
 
@@ -182,7 +182,7 @@ iframe {
 
 .banner img {
 	width: 100%;
-	height: 120%;
+	height: 115%;
 }
 
 .selectDealer {
@@ -217,7 +217,7 @@ iframe {
 }
 
 .outerZipWrap {
-	width: 450px;
+	width: 470px;
 	margin: auto;
 }
 
