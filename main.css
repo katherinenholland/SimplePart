@@ -125,23 +125,25 @@ iframe {
 	width: 100px;
 	border: none;
 	margin-top: 35px;
+	display: inline-block;
 	margin-left: 45%;
 }
 
 .search {
 	background-color: #333333;
 	color: #fff;
-	height: 50px;
-	width: 300px;
+	height: 40%;
+	width: 27%;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-	float: right;
-	margin-top: 20px;
+	padding-bottom: 1%;
 	margin-right: 1%;
+	margin-top: 18px;
+	float: right;
 }
 
 .searchInput input {
-	width: 170px;
+	width: 172px;
 	height: 22px;
 	float: left;
 	border-right: 0;
@@ -151,7 +153,7 @@ iframe {
 	width: 201px;
 	display: inline-block;
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 1%;
 }
 
 .searchImg {
@@ -168,7 +170,8 @@ iframe {
 
 .search p {
 	float: left;
-	margin-left: 10px;
+	margin-left: 7%;
+	margin-right: 3%;
 	margin-top: 16px;
 }
 
