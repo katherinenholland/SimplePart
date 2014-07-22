@@ -6,17 +6,19 @@ body {
 	padding: 0;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	margin: auto;
 }
 
 .headerWrapper {
-	width: 100%;
 	background-color: #fff;
+	float: left;
+	min-width: 100%;
 }
 
 .headerWrapper p {
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-left: 15px;
+	padding-left: 20px;
 }
 
 .subaruWrap {
@@ -81,34 +83,40 @@ body {
     background: linear-gradient(#fff, #EBEBEB); /* Standard syntax */
 }
 
-.lowerHeaderWrap{
-	width: 50%;
-	float: right;
-	margin-right: 5px;
-}
-
 .lowerHeader {
 	height: 70px;
 	background-color: #EBEBEB;
-	padding-top: 0;
 }
 
-.lowerHeader a {
+.lowerHeaderWrap {
+	max-width: 900px;
+	margin: auto;
+}
+
+.menuList {
+	display: inline-block;
+	margin-left: -170px;
+}
+
+.menuList nav {
+	margin-top: 0;
+}
+
+.menuList a {
 	text-decoration: none;
 	color: #4062A1;
 	padding: 5px 10px 5px 10px;
 	border-right: 1px solid #fff;
 }
 
-.lowerHeader ul {
+.menuList ul {
 	list-style-type: none;
 	font-size: 14px;
-	padding-top: 10px;
-	padding-left: 15px;
-    position: absolute;
+	padding-left: 0;
+	margin-top: 0;
 }
 
-.lowerHeader li {
+.menuList li {
 	display: inline;
 	font-weight: bold;
 }
@@ -122,41 +130,42 @@ body {
 	border-top: 5px;
 }
 
+.socialMediaIcons {
+	display: inline-block;
+	/*padding-left: 60px;*/
+}
+
 iframe {
 	height: 20px;
 	width: 100px;
 	border: none;
-	margin-top: 35px;
-	margin-right: 0;
-	padding-right: 0;
-	float: left;
+	margin-top: 30px;
 }
 
 .search {
 	background-color: #333333;
 	color: #fff;
 	height: 40px;
-	width: 370px;
+	width: 300px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-	padding-bottom: 1%;
-	margin-right: 1%;
-	margin-top: 24px;
 	float: right;
-}
-
-.searchInput input {
-	width: 172px;
-	height: 22px;
-	float: left;
-	border-right: 0;
+	margin-top: 20px;
+	padding-bottom: 10px;
 }
 
 .searchInput {
-	width: 201px;
+	width: 180px;
 	display: inline-block;
 	margin-top: 10px;
-	margin-left: 1%;
+	margin-left: 5px;
+}
+
+.searchInput input {
+	width: 151px;
+	height: 22px;
+	float: left;
+	border-right: 0;
 }
 
 .searchImg {
@@ -173,26 +182,25 @@ iframe {
 
 .search p {
 	float: left;
-	margin-left: 7%;
-	margin-right: 3%;
+	margin-left: 5px;
+	margin-right: 5px;
 	margin-top: 16px;
 }
 
 .container {
-	width: 98%;
+	max-width: 900px;
 	height: 100%;
 	margin: auto;
 	background-color: #fff;
 }
 
 .wrapper1 {
-	width: 100%;
 	background-color: #B2B2B2;
 }
 
 .banner img {
-	width: 100%;
-	height: 115%;
+	height: 100px;
+	width: 900px;
 }
 
 .selectDealer {
@@ -201,14 +209,14 @@ iframe {
 }
 
 .selectDealer h4 {
-	margin-left: 2%;
+	margin-left: 10px;
 	margin-top: 0;
 	font-size: 13px;
 	font-weight: bold;
 }
 
 .wrapper2 {
-	width: 95%;
+	width: 900px;
 	margin: auto;
 	font-weight: bold;
 	background-color: #EDEDED;
@@ -272,7 +280,7 @@ iframe {
 }
 
 .selectDealer2 h2 {
-	margin-left: 2%;
+	margin-left: 10px;
 	margin-top: 0;
 	font-size: 20px;
 	font-weight: bolder;
@@ -290,7 +298,7 @@ iframe {
 }
 
 hr {
-	width: 100%;
+	width: 900px;
 }
 
 #map1, #map2, #map3, #map4, #map5, #map6 {
@@ -301,7 +309,7 @@ hr {
 }
 
 .dealer h2 {
-	margin-left: 20%;
+	margin-left: 15px;
 }
 
 .dealer h3 {
@@ -309,7 +317,7 @@ hr {
 }
 
 .dealer h3, .dealer h4, .dealer p {
-	margin-left: 22%;
+	margin-left: 25px;
 }
 
 .dealer h5 {
@@ -331,6 +339,11 @@ hr {
 	font-size: 26px;
 	border-radius: 5px;
 	margin-top: 10px;
+}
+
+footer {
+	float: left;
+	min-width: 100%;
 }
 
 .upperFooter {
