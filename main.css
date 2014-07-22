@@ -342,7 +342,6 @@ hr {
 
 .dealer h5 {
 	float: right;
-	margin-top: 10px;
 }
 
 .dealer h6 {
@@ -350,10 +349,6 @@ hr {
 	margin-top: 5px;
 	margin-bottom: 0;
 	font-weight: normal;
-}
-
-.dealer p {
-	margin-bottom: 0;
 }
 
 .dealer button {
