@@ -92,6 +92,7 @@ body {
 .lowerHeader {
 	height: 70px;
 	background-color: #EBEBEB;
+	clear: both;
 }
 
 .lowerHeaderWrap {
@@ -101,7 +102,6 @@ body {
 
 .menuList {
 	display: inline-block;
-	margin-left: -188px;
 }
 
 .menuList nav {
@@ -145,31 +145,32 @@ iframe {
 	width: 100px;
 	border: none;
 	margin-top: 35px;
-	margin-left: 75px;
+	margin-left: 65px;
 }
 
 .search {
 	background-color: #333333;
 	color: #fff;
 	height: 35px;
-	width: 250px;
+	width: 260px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	float: right;
 	margin-top: 25px;
 	padding-bottom: 10px;
+	padding-right: 5px;
 }
 
 .searchInput {
 	width: 155px;
 	display: inline-block;
 	margin-top: 10px;
-	margin-left: 5px;
 	margin-right: 10px;
+	margin-left: 5px;
 }
 
 .searchInput input {
-	width: 120px;
+	width: 126px;
 	height: 22px;
 	float: left;
 	border-right: 0;
@@ -180,7 +181,8 @@ iframe {
 	height: 27px;
 	width: 25px;
 	margin-top: 1px;
-	margin-right: 5px;
+	border-left: 0;
+	margin-left: 0;
 }
 
 .search a {
