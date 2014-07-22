@@ -4,14 +4,14 @@ body {
 	margin: 0;
 	border: 0;
 	padding: 0;
-	overflow-x: hidden;
+	overflow-x: scroll;
 	overflow-y: scroll;
 	margin: auto;
 }
 
 .headerWrapper {
 	background-color: #fff;
-	max-width: 900px;
+	width: 900px;
 	margin: auto;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .lowerHeaderWrap {
-	max-width: 900px;
+	width: 900px;
 	margin: auto;
 }
 
@@ -198,7 +198,7 @@ iframe {
 }
 
 .container {
-	max-width: 900px;
+	width: 900px;
 	height: 100%;
 	margin: auto;
 	background-color: #fff;
@@ -372,7 +372,7 @@ hr {
 	color: #323232;
 	padding: 10px;
 	margin: auto;
-	max-width: 900px;
+	width: 900px;
 }
 
 .upperFooter p {
@@ -404,7 +404,7 @@ hr {
 	padding-left: 10px;
 	padding-right: 15px;
 	margin: auto;
-	max-width: 900px;
+	width: 900px;
 }
 
 .lowerFooterTop img {
