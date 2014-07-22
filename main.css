@@ -294,11 +294,11 @@ iframe {
 }
 
 .dealer {
-	color: #5A564D
+	color: #5A564D;
 }
 
 hr {
-	width: 900px;
+	max-width: 870px;
 }
 
 #map1, #map2, #map3, #map4, #map5, #map6 {
@@ -306,18 +306,22 @@ hr {
 	height: 200px;
 	background-color: #CCC;
 	float: left;
+	margin-right: 20px;
 }
 
 .dealer h2 {
-	margin-left: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .dealer h3 {
 	font-size: 26px;
+	margin-top: 5px;
 }
 
-.dealer h3, .dealer h4, .dealer p {
-	margin-left: 25px;
+.dealer h4 {
+	margin-top: 45px;
+	margin-bottom: 0;
 }
 
 .dealer h5 {
@@ -326,8 +330,15 @@ hr {
 	margin-bottom: 20px;
 }
 
+.dealer h6 {
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
 .dealer p {
 	margin-bottom: 0;
+	margin-left: 270px;
 }
 
 .dealer button {
@@ -336,12 +347,12 @@ hr {
 	color: #fff;
 	height: 40px;
 	width: 220px;
-	font-size: 26px;
+	font-size: 22px;
 	border-radius: 5px;
-	margin-top: 10px;
+	margin-top: 0;
 }
 
-footer {
+.footerWrapper {
 	float: left;
 	min-width: 100%;
 }

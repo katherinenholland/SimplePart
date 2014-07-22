@@ -6,7 +6,7 @@ $(document).ready(function () {
 		$(".dealer").append("<hr>");
 		$(".dealer").append('<div id="' + dealership.Map + '"></div>')
 		$(".dealer").append("<h2>" + dealership.Title + "</h2>");
-		$(".dealer").append("<p>" + dealership.Address1 + "<br>" + dealership.Address2 + "<br>" + dealership.Country + "</p>");
+		$(".dealer").append("<h6>" + dealership.Address1 + "<br>" + dealership.Address2 + "<br>" + dealership.Country + "</h6>");
 		$(".dealer").append("<button>" + "Select This Dealer" + "</button>");
 		$(".dealer").append("<h3>" + dealership.Phone + "</h3>");
 		$(".dealer").append("<h4>" + "Reviews" + "</h4>");
